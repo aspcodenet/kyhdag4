@@ -28,6 +28,30 @@
         </nav>
     </header>
 
+    <form>
+        <input required type="text" id="namn" name="namn" placeholder="ange namn">
+        <br/>
+        <label for="adr">Ange adress</label>
+        <input type="text" id="adr" name="adr">
+        <br/>
+        <label for="datum">Ange datum</label>
+        <input type="datetime-local" id="datum" name="datum">
+        <br/>
+        <label for="theemail">Ange email</label>
+        <input type="email" id="theemail" name="theemail">
+        <br/>
+        <label for="tal">Ange födelseår</label>
+        <input type="number" id="tal" name="tal"  min="1900" max="2022"  value="1972">
+
+        <input type="number" id="tal2" name="tal2" placeholder="1973">
+
+        <label for="color">Color</label>
+        <input type="color" id="farg" name="farg">
+
+
+        <input type="submit" value="Submit">
+    </form>
+
     <main>
         <section>
             <h2>Våra anställda</h2>
